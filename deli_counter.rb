@@ -2,7 +2,7 @@
 
 def line(ln)
   puts ln.empty?
-  if (ln.empty?)
+  if ln.empty?
    return "The line is currently empty."
   
   return ln
