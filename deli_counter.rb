@@ -22,6 +22,6 @@ def now_serving(array)
     return
   end
   
-  puts "Currently serving #{array[0]}."
+  puts "Currently serving #{array[0]} ."
   array.pop
 end
