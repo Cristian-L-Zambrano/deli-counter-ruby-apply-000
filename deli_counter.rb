@@ -9,6 +9,7 @@ def line(ln)
   ln.each_with_index do |val, index|
     print " #{index + 1}. #{val}"
   end
+  puts
 end
 
 def take_a_number(array, new_customer)
