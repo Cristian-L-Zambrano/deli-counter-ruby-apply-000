@@ -7,7 +7,7 @@ def line(ln)
   
   print "The line is currently:"
   ln.each_with_index do |val, index|
-    print " #{index + 1}. #{val}"
+    print " #{index}. #{val}"
   end
 end
 
