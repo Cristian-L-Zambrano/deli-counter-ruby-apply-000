@@ -6,8 +6,8 @@ def line(ln)
   end
   
   
-  puts ln.each do |cur|
-    
+  ln.each_with_index do |val, index|
+    puts "#{index}. #{val}
   end
 end
 
