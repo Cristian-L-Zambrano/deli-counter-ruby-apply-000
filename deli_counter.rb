@@ -26,10 +26,4 @@ def now_serving(array)
   
   puts "Currently serving #{array[0]}."
   array.pop
-  
-  print "The line is currently: "
-  ln.each_with_index do |val, index|
-    puts "#{index}. #{val}"
-  end
-  
 end
