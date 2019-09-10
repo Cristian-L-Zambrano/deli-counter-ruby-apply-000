@@ -10,7 +10,7 @@ def line(ln)
   ln.each_with_index do |val, index|
     current_line << " #{index + 1}. #{val}"
   end
-  return current_line
+  puts current_line
 end
 
 def take_a_number(array, new_customer)
