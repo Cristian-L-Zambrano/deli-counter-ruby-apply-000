@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(ln)
-  #puts ln.empty?
+  puts ln.empty?
   #if (ln.empty?)
    
    # return "The line is currently empty."
