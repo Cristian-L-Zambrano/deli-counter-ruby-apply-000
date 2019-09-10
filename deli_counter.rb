@@ -8,6 +8,6 @@ def line(ln)
 end
 
 def take_a_number(array, new_customer)
-  puts new_customer
+  puts "Welcome, #{new_customer}. You are number #{array.lenght} in line."
   array.push(new_customer)
 end
