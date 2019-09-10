@@ -10,7 +10,7 @@ def line(ln)
 end
 
 def take_a_number(array, new_customer)
-  puts "Welcome, #{new_customer}. You are number #{array.lenght} in line."
+  puts "Welcome, #{new_customer}. You are number #{array.length} in line."
   array.push(new_customer)
 end
 
@@ -19,6 +19,6 @@ def now_serving(array)
     return "There is nobody waiting to be served!"
   end
   
-  puts "now serving #{array.lenght}"
+  puts "now serving #{array.length}"
   array.pop
 end
