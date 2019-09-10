@@ -21,7 +21,9 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
     return
   end
-  
   puts "Currently serving #{array[0]} ."
+  ln.each_with_index do |val, index|
+    puts "#{index}. #{val}"
+  end
   array.pop
 end
