@@ -10,7 +10,7 @@ def line(ln)
 end
 
 def take_a_number(array, new_customer)
-  puts "Welcome, #{new_customer}. You are number #{array.length} in line."
+  puts "Welcome, #{new_customer}. You are number #{array.length + 1} in line."
   array.push(new_customer)
 end
 
