@@ -6,11 +6,11 @@ def line(ln)
    return
   end
   
-  print "The line is currently:"
+  current_line = "The line is currently:"
   ln.each_with_index do |val, index|
-    print " #{index + 1}. #{val}"
+    currently << " #{index + 1}. #{val}"
   end
-  puts
+  return current_line
 end
 
 def take_a_number(array, new_customer)
