@@ -5,7 +5,10 @@ def line(ln)
    puts "The line is currently empty."
   end
   
-  return ln
+  
+  puts ln.each do |cur|
+    
+  end
 end
 
 def take_a_number(array, new_customer)
