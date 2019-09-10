@@ -28,4 +28,5 @@ def now_serving(array)
     puts "#{index}. #{val}"
   end
   array.pop
+  return array
 end
