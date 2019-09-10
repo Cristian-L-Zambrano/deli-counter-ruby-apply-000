@@ -5,9 +5,9 @@ def line(ln)
    puts "The line is currently empty."
   end
   
-  
+  print "The line is currently: "
   ln.each_with_index do |val, index|
-    puts "#{index}. #{val}"
+    print "#{index}. #{val} "
   end
 end
 
