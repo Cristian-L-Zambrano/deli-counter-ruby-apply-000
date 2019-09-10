@@ -8,7 +8,7 @@ def line(ln)
   
   current_line = "The line is currently:"
   ln.each_with_index do |val, index|
-    currently << " #{index + 1}. #{val}"
+    current_line << " #{index + 1}. #{val}"
   end
   return current_line
 end
