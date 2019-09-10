@@ -7,7 +7,7 @@ def line(ln)
   
   
   ln.each_with_index do |val, index|
-    puts "#{index}. #{val}
+    puts "#{index}. #{val}"
   end
 end
 
