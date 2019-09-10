@@ -3,10 +3,9 @@
 def line(ln)
   if ln.empty?
    puts "The line is currently empty."
-   return
   end
   
-  # return ln
+  return ln
 end
 
 def take_a_number(array, new_customer)
