@@ -13,7 +13,9 @@ def take_a_number(array, new_customer)
 end
 
 def now_serving(array)
-  
   if (array.empty)
-    return 
+    return "There is nobody waiting to be served!"
+  
+  puts "now serving #{array}"
+  array.pop
 end
