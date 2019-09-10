@@ -17,5 +17,5 @@ def now_serving(array)
     return "There is nobody waiting to be served!"
   
   puts "now serving #{array}"
-  # array.pop
+  array.pop
 end
