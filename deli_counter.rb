@@ -1,11 +1,12 @@
 # Write your code here.
 
 def line(ln)
-  puts ln.empty?
-  if (ln.empty?)
-    return "The line is currently empty."
+  #puts ln.empty?
+  #if (ln.empty?)
+   
+   # return "The line is currently empty."
   
-  # return ln
+  return ln
 end
 
 def take_a_number(array, new_customer)
